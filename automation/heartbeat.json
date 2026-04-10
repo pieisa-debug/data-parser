@@ -1,0 +1,25 @@
+{
+  "serviceName": "data-parser",
+  "status": "healthy",
+  "timestamp": "2024-10-27T10:00:00Z",
+  "version": "1.2.3",
+  "dependencies": {
+    "database": {
+      "status": "healthy",
+      "responseTimeMs": 15
+    },
+    "messageQueue": {
+      "status": "degraded",
+      "error": "Connection timeout"
+    }
+  },
+  "metrics": {
+    "cpuUsagePercent": 25.5,
+    "memoryUsageBytes": 536870912,
+    "requestsPerMinute": 120
+  },
+  "customProperties": {
+    "environment": "production",
+    "region": "us-east-1"
+  }
+}
